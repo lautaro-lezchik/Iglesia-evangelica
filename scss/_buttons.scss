@@ -1,0 +1,36 @@
+
+
+.btn-general{
+    color:$white-color;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 50px 0 50px 0;
+    border:none;
+    font-size: 1.2rem;
+}
+
+.btn-general:hover{
+    box-shadow: 5px 5px $acc-color;
+    color:$white-color !important;
+    background-color: $var-color1;
+    box-shadow: 5px 5px $acc-color;
+}
+
+.btn--acc {
+    background-color: $acc-color;
+}
+
+.btn--color2 {
+    background-color: $var-color2;
+}
+
+.btn--larger {
+    font-size: larger;
+    font-weight: 600;
+    padding: 15px 50px;
+}
+
+.btn-send, .btn-clear {
+    height: auto!important;
+    width: auto!important;
+}

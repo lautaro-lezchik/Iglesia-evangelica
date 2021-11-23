@@ -1,0 +1,41 @@
+.actividades__first-p {
+    margin: 10px 10% 50px 10%;
+}
+
+.actividades__card {
+    margin: 100px 0;
+    padding: 0 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto 1fr;
+    grid-template-areas: 
+    "titulo foto"
+    "parrafo1 foto"
+    "parrafo2 foto";
+    row-gap: 20px;
+    &__subtitulo {
+        grid-area: titulo;
+        align-self: end;
+        color: $acc-color;
+    }
+    &__p1 {
+        grid-area: parrafo1;
+    }
+    &__p2 {
+        grid-area: parrafo2;
+        align-self: start;
+        justify-self: center;
+        padding-top: 25px;
+    }
+    &__img {
+        grid-area: foto;
+    }
+}
+
+.actividades__card-2 {
+    @extend .actividades__card;
+    grid-template-areas: 
+    "foto titulo"
+    "foto parrafo1"
+    "foto parrafo2";
+}

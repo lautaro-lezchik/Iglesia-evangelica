@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/*--------------FIXED WHATSAPP ICON---------------*/
+
+.fa-whatsapp {
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    color: $acc-color!important;
+}
+
+.fa-whatsapp:hover{
+    color: $white-color!important;
+    background-color: $var-color2;
+    padding: 5px;
+}
+
+/*----------SUBPAGE TITLES-----------*/
+
+.subpage-title {
+    padding: 70px 0;
+    font-size: 3rem;
+    color: $var-color1;
+}

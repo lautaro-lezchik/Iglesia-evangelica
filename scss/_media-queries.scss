@@ -1,0 +1,277 @@
+/*--------------------------------------------------------------------*/
+/*-----------------------------HOMEPAGE-------------------------------*/
+/*--------------------------------------------------------------------*/
+
+/*------HEADER-----------*/
+
+@media only screen and (max-width: 1000px){
+    .header__menu {
+        margin-left: 20%!important;
+    }
+}
+
+@media only screen and (min-width: 851px){
+
+    .header__menu {
+        display: block;
+    }
+    
+    .navbar {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 850px){
+
+.header__menu {
+    display: none;
+}
+
+.navbar {
+    display: block;
+}
+
+.header__logo {
+    width: 20%;
+    margin-top: 5px;
+    padding-bottom: 15px;
+}
+
+}
+
+/*------HERO SECTION-----------*/
+
+@media only screen and (max-width: 1000px){
+    
+    .hero__text--orange{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 650px){
+
+    .hero {
+        display:grid;
+        grid-template-rows: auto auto;
+        justify-content: center;
+        &__image {
+            align-self: center;
+            order: 2;
+            margin: auto;
+        }
+        &__text {
+            margin-bottom: 50px;
+            margin-top: 40px;
+            &--orange {
+                padding: 0;
+                line-height: 60px;
+                margin-bottom: 30px;
+                margin-top: 50px;
+                font-size: 8vw;
+            }
+            a {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+/*------ACERCA DE SECTION-----------*/
+
+@media only screen and (max-width: 900px){
+
+    .quienes-somos__flex {
+        flex-direction: column;
+        p { 
+            margin: 15px auto;
+        }
+    }
+    .foto-grupal {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+
+/*------NUESTROS VALORES SECTION-----------*/
+
+@media only screen and (max-width: 1500px){
+
+    .tarjeta {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .tarjeta--first {
+        margin-top: 0px;
+    }
+}
+
+
+/*------ACTIVIDADES SECTION-----------*/
+
+@media only screen and (min-width: 751px){
+
+    .actividades-phone {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 750px){
+
+    .actividades {
+        display: none;
+    }
+
+    .actividades-phone {
+        display: block;
+    }
+}
+
+
+/*------VIDEO DESTACADO SECTION-----------*/
+
+@media only screen and (max-width: 1000px){
+    
+    .video-destacado__contenedor{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        row-gap: 30px;
+        margin-top: 30px;
+    }
+    .video-destacado__titulo {
+        padding: 0 10%;
+    }
+}
+
+
+@media only screen and (max-width: 640px){
+
+    .video-destacado__contenedor iframe {
+        width: auto;
+    }
+}
+
+/*------CONTACTO SECTION-----------*/
+
+@media only screen and (max-width: 856px){
+
+    .contacto__h2, .contacto__subtitulo{
+        padding: 0 10%;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 957px){
+    .contacto__reset {
+        margin-top: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 500px){
+
+.contacto {
+    padding: 0 10%;
+    margin: 0 20px 40px 0;
+    justify-self: center;
+    &__form {
+        padding: 0 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &--grid {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            padding: 0 10%;
+            justify-content: center;
+        }
+    }
+    &__input {
+        box-sizing: border-box;
+        width: 50vw;
+        height: 30px;
+        &--first {
+            margin-top: 10px;
+        }
+        &--mensaje {
+            width: 100%;
+        }
+    }
+}
+
+}
+
+/*------FOOTER-----------*/
+
+
+@media only screen and (min-width: 1499px){
+
+    #footer {
+        grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    }
+}
+
+@media only screen and (max-width: 749px){
+    .footer__contenedor__logo{
+        text-align: center;
+    }
+}
+
+
+
+/*----------------------------------------------*/
+/*-----------------SUBPAGES-------------------*/
+/*----------------------------------------------*/
+
+@media only screen and (max-width: 865px) and (min-width:635px) {
+    .subpage-title {
+        margin-top: 50px;
+    }
+    }
+
+/*---------------QUIENES SOMOS--------------------*/
+
+@media only screen and (max-width: 1179px){
+    .quienes-somos__seccion1, .quienes-somos__seccion2, .quienes-somos__seccion3 {
+        display: block;
+        text-align: center;
+        p {
+            text-align: left;
+        }
+        img {
+            margin-top: 25px;
+        }
+    }
+}
+
+/*------PAGINA ACTIVIDADES-----------*/
+
+@media only screen and (max-width: 1150px){
+    .actividades__card__img {
+        width: 80%;
+    }
+}
+    
+@media only screen and (max-width: 700px) {
+        .actividades__card, .actividades__card-2 {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+        }
+    
+        .actividades__card__subtitulo, .actividades__card__img, .actividades__card__p2 {
+            align-self: center;
+        }
+    }
+    
+
+
+
+
+
+
+

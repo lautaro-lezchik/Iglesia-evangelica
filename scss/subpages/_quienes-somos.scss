@@ -1,0 +1,87 @@
+.quienes-somos__seccion1 {
+    padding: 0 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "parrafo1 foto"
+    "parrafo2 foto";
+    row-gap: 5%;
+    &__parrafo1 {
+        grid-area: parrafo1;
+    }
+    &__parrafo2 {
+        grid-area: parrafo2;
+    }
+    &__img {
+        width: 80%;
+        grid-area: foto;
+        margin: auto;
+    }
+    
+}
+
+
+.quienes-somos__seccion2 {
+    margin: 100px 0;
+    padding: 0 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "foto parrafo1"
+    "foto parrafo2"
+    "foto parrafo3";
+    row-gap: 5%;
+    &__parrafo1 {
+        grid-area: parrafo1;
+    }
+    &__parrafo2 {
+        grid-area: parrafo2;
+    }
+    &__parrafo3 {
+        grid-area: parrafo3;
+    }
+    &__img {
+        width: 90%;
+        grid-area: foto;
+        margin: auto;
+    }
+    
+}
+
+
+
+.quienes-somos__seccion3 {
+    margin: 100px 0;
+    padding: 0 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "parrafo1 foto"
+    "parrafo2 foto"
+    "parrafo3 foto";
+    row-gap: 5%;
+    &__parrafo1 {
+        grid-area: parrafo1;
+    }
+    &__parrafo2 {
+        grid-area: parrafo2;
+    }
+    &__parrafo3 {
+        grid-area: parrafo3;
+    }
+    &__img {
+        width: 90%;
+        grid-area: foto;
+        margin: auto;
+    }
+    
+}
+
+
+.sumate-button__div {
+    text-align: center;
+    margin: 150px 0;
+}

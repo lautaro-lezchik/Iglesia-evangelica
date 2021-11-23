@@ -1,0 +1,25 @@
+
+.hero__text--hidden{
+    display: none;
+}
+
+h1, h2{
+    color: $var-color1;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h3{
+    color: $acc-color;
+}
+
+h4{
+    color: $var-color2;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 2rem;
+}

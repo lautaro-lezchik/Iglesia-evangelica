@@ -1,0 +1,134 @@
+
+.header {
+    display: flex;
+    background-color:$header-footer-back-color;
+    z-index: 0;
+    &__logo {
+        width: 15%;
+        margin-left: 5%;
+        position: absolute;
+        z-index: 2;
+    }
+    &__menu {
+        background-color:$header-footer-back-color;
+        width: 100%;
+        padding: 50px 0;
+        margin-left: 40%;
+    }
+}
+.menu__list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.menu__item {
+    color:$acc-color;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    list-style: none;
+    &:hover {
+        color:$var-color1;
+    }
+}
+.submenu {
+    position: absolute;
+    display: none;
+    width: 200px;
+    background-color: $acc-color;
+    color: $white-color;
+    padding: 10px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50px 0 50px 0;
+    text-decoration: none;
+    margin-left: -35px;
+    z-index: 200;
+    &__item{
+        display: block;
+        border-top: 1px solid $white-color;
+        padding: 7px 0;
+        &--border{
+            border:none;
+        }
+        &--link{
+            text-decoration: none;
+            color: $white-color;
+            &:hover {
+                text-decoration: none;
+                color:$var-color1;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+
+
+
+ul li:hover ul {
+    display: block;
+}
+
+
+/*------HAMBURGER MENU-----------*/
+
+.navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(238, 128, 33, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-light .navbar-toggler{
+    border:none;
+} 
+
+.navbar-toggler {
+    font-size: 32px;
+    &:active {
+        border: none;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link.active {
+    color: $var-color1;
+    font-size: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link:active, .navbar-light .navbar-nav .nav-link.active:active {
+    color: $acc-color;
+    font-size: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link.active:hover {
+    color:$acc-color;
+}
+
+.dropdown-menu {
+    border:none;
+    background-color: transparent;
+}
+
+.dropdown-item {
+    color:$var-color1;
+    font-size: 1rem;
+    align-items: left;
+    &:hover {
+        background-color: transparent;
+        color: $acc-color;
+        font-weight: 500;
+    }
+}
+
+
+.hamburgerContacto{
+    color: $acc-color !important;
+    &:hover {
+        color: $var-color1!important;
+    }
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+/*------HAMBURGER MENU FIN-----------*/

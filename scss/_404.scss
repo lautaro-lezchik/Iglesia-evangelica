@@ -1,0 +1,36 @@
+
+.page-404 {
+    background-color:$header-footer-back-color;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &__text {
+        text-align: center;
+        margin-top: 150px;
+        padding: 0 10%;
+        &--h1 {
+            margin-bottom: 50px;
+        }
+    }
+    &__button {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    &__logo {
+        margin: auto;
+        text-align: center;
+        &--img {
+            width: 60%;
+        }
+    }
+    
+
+}

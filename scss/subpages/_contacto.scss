@@ -1,0 +1,30 @@
+
+.contact-info {
+    margin: 50px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &__group{
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 25px;
+        align-items: center;
+        &__text {
+            align-self:center;
+            margin-left: 15px;
+            margin: 0 15px;
+        }
+        &__link {
+            align-self:center;
+            margin-left: 15px;
+        }
+    }
+    &--icons {
+        color:$var-color1;
+        font-size: 60px;
+        text-align: center;
+    }
+}
+
+
+
