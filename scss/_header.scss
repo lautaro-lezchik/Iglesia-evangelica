@@ -63,7 +63,9 @@
     }
 }
 
-
+.menu--active {
+    color:$var-color1;
+}
 
 
 ul li:hover ul {

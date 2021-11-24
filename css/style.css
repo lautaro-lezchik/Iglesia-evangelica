@@ -79,6 +79,9 @@
         color: #04a498;
         font-weight: 700; }
 
+.menu--active {
+  color: #04a498; }
+
 ul li:hover ul {
   display: block; }
 
