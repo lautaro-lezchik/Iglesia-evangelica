@@ -6,3 +6,6 @@ Desarollo de un sitio web desde cero, a través del cual aplico conocimientos en
 La Iglesia con ese nombre existe, y el contenido escrito es bastante real, aunque ninguna de las imágenes corresponden a las actividades de dicha iglesia.
 
 Aprendí muchísimo desarrollando este sitio y estoy muy contento con lo logrado, gracias también a la ayuda de tutores y profesores en Coderhouse.
+
+Link a pages de GitHub:
+https://lautaro-lezchik.github.io/Iglesia-evangelica/index.html
