@@ -146,18 +146,19 @@ ul li:hover ul {
     text-align: center;
     line-height: 1.5em;
     list-style: none; }
-    .footer__list__item {
-      padding: 15px 0; }
-      .footer__list__item__link {
-        text-decoration: none;
-        color: #04a498;
-        font-size: 1.3em; }
-        .footer__list__item__link:hover {
-          color: #ee8021; }
-  .footer__contact-button {
-    margin: 20px !important;
-    text-align: center;
+  .footer__item {
+    padding: 15px 0; }
+  .footer__link {
+    text-decoration: none;
+    color: #04a498;
     font-size: 1.3em; }
+    .footer__link:hover {
+      color: #ee8021; }
+
+.contact-button--footer {
+  margin: 20px !important;
+  text-align: center;
+  font-size: 1.3em; }
 
 .social-media {
   text-align: center; }
@@ -166,25 +167,25 @@ ul li:hover ul {
   .social-media__links {
     margin: 15px; }
 
-.social-media__icons--instagram {
+.icon--instagram {
   color: #ee8021;
   font-size: 60px;
   text-align: center; }
-  .social-media__icons--instagram:hover {
+  .icon--instagram:hover {
     transform: scale(1.1, 1.1); }
 
-.social-media__icons--facebook {
+.icon--facebook {
   color: #04a498;
   font-size: 60px;
   text-align: center; }
-  .social-media__icons--facebook:hover {
+  .icon--facebook:hover {
     transform: scale(1.1, 1.1); }
 
-.social-media__icons--youtube {
+.icon--youtube {
   color: #4eb349;
   font-size: 60px;
   text-align: center; }
-  .social-media__icons--youtube:hover {
+  .icon--youtube:hover {
     transform: scale(1.1, 1.1); }
 
 .btn-general {
@@ -479,13 +480,13 @@ p {
     flex-wrap: nowrap;
     margin: 25px;
     align-items: center; }
-    .contact-info__group__text {
-      align-self: center;
-      margin-left: 15px;
-      margin: 0 15px; }
-    .contact-info__group__link {
-      align-self: center;
-      margin-left: 15px; }
+  .contact-info__text {
+    align-self: center;
+    margin-left: 15px;
+    margin: 0 15px; }
+  .contact-info__link {
+    align-self: center;
+    margin-left: 15px; }
   .contact-info--icons {
     color: #04a498;
     font-size: 60px;
@@ -701,7 +702,7 @@ p {
     grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); } }
 
 @media only screen and (max-width: 749px) {
-  .footer__contenedor__logo {
+  .div__logo {
     text-align: center; } }
 
 /*----------------------------------------------*/

@@ -15,25 +15,25 @@
         text-align: center;
         line-height: 1.5em;
         list-style: none;
-        &__item {
-            padding: 15px 0;
-            &__link {
-                text-decoration: none;
-                color: $var-color1;
-                font-size: 1.3em;
-                &:hover {
-                    color:$acc-color;
-                }
-            }
-        }
     }
-    &__contact-button {
-        margin: 20px !important;
-        text-align: center;
+    &__item {
+        padding: 15px 0;
+    }
+    &__link {
+        text-decoration: none;
+        color: $var-color1;
         font-size: 1.3em;
+        &:hover {
+            color:$acc-color;
+        }
     }
 }
 
+.contact-button--footer {
+    margin: 20px !important;
+    text-align: center;
+    font-size: 1.3em;
+}
 
 .social-media{
     text-align: center;
@@ -46,7 +46,7 @@
 }
 
 @each $icon, $color in $social-media {
-    .social-media__icons--#{$icon} {
+    .icon--#{$icon} {
         color: $color;
         font-size: 60px;
         text-align: center;
