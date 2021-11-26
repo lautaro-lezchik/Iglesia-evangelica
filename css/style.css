@@ -411,23 +411,23 @@ p {
         font-size: 1rem;
         margin-top: 5px; }
 
-.quienes-somos__seccion1 {
+.seccion1 {
   padding: 0 10%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "parrafo1 foto" "parrafo2 foto";
   row-gap: 5%; }
-  .quienes-somos__seccion1__parrafo1 {
+  .seccion1__parrafo1 {
     grid-area: parrafo1; }
-  .quienes-somos__seccion1__parrafo2 {
+  .seccion1__parrafo2 {
     grid-area: parrafo2; }
-  .quienes-somos__seccion1__img {
+  .seccion1__img {
     width: 80%;
     grid-area: foto;
     margin: auto; }
 
-.quienes-somos__seccion2 {
+.seccion2 {
   margin: 100px 0;
   padding: 0 10%;
   display: grid;
@@ -435,18 +435,18 @@ p {
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: "foto parrafo1" "foto parrafo2" "foto parrafo3";
   row-gap: 5%; }
-  .quienes-somos__seccion2__parrafo1 {
+  .seccion2__parrafo1 {
     grid-area: parrafo1; }
-  .quienes-somos__seccion2__parrafo2 {
+  .seccion2__parrafo2 {
     grid-area: parrafo2; }
-  .quienes-somos__seccion2__parrafo3 {
+  .seccion2__parrafo3 {
     grid-area: parrafo3; }
-  .quienes-somos__seccion2__img {
+  .seccion2__img {
     width: 90%;
     grid-area: foto;
     margin: auto; }
 
-.quienes-somos__seccion3 {
+.seccion3 {
   margin: 100px 0;
   padding: 0 10%;
   display: grid;
@@ -454,13 +454,13 @@ p {
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: "parrafo1 foto" "parrafo2 foto" "parrafo3 foto";
   row-gap: 5%; }
-  .quienes-somos__seccion3__parrafo1 {
+  .seccion3__parrafo1 {
     grid-area: parrafo1; }
-  .quienes-somos__seccion3__parrafo2 {
+  .seccion3__parrafo2 {
     grid-area: parrafo2; }
-  .quienes-somos__seccion3__parrafo3 {
+  .seccion3__parrafo3 {
     grid-area: parrafo3; }
-  .quienes-somos__seccion3__img {
+  .seccion3__img {
     width: 90%;
     grid-area: foto;
     margin: auto; }
@@ -494,7 +494,7 @@ p {
 .actividades__first-p {
   margin: 10px 10% 50px 10%; }
 
-.actividades__card, .actividades__card-2, .actividades__card--subpages {
+.tarjeta-1, .tarjeta-2, .tarjeta-1--subpages {
   margin: 100px 0;
   padding: 0 10%;
   display: grid;
@@ -502,30 +502,30 @@ p {
   grid-template-rows: 1fr auto 1fr;
   grid-template-areas: "titulo foto" "parrafo1 foto" "parrafo2 foto";
   row-gap: 20px; }
-  .actividades__card__subtitulo {
+  .tarjeta-1__subtitulo {
     grid-area: titulo;
     align-self: end;
     color: #ee8021; }
-  .actividades__card__p1 {
+  .tarjeta-1__p1 {
     grid-area: parrafo1; }
-  .actividades__card__p2 {
+  .tarjeta-1__p2 {
     grid-area: parrafo2;
     align-self: start;
     justify-self: center;
     padding-top: 25px; }
-  .actividades__card__img {
+  .tarjeta-1__img {
     grid-area: foto; }
 
-.actividades__card-2 {
+.tarjeta-2 {
   grid-template-areas: "foto titulo" "foto parrafo1" "foto parrafo2"; }
 
-.actividades__card--subpages {
+.tarjeta-1--subpages {
   margin-top: 10px; }
 
-.galeria-de-fotos__titulo {
+.galeria__titulo {
   color: #ee8021; }
 
-.galeria-de-fotos__div {
+.galeria__div {
   padding: 0 10%;
   margin: 70px 0;
   display: grid;
@@ -533,9 +533,10 @@ p {
   grid-template-rows: 1fr 1fr;
   row-gap: 50px;
   column-gap: 50px; }
-  .galeria-de-fotos__div__img {
-    width: 90%;
-    justify-self: center; }
+
+.galeria__img {
+  width: 90%;
+  justify-self: center; }
 
 .page-404 {
   background-color: #f6f8f7;
@@ -712,24 +713,24 @@ p {
 
 /*---------------QUIENES SOMOS--------------------*/
 @media only screen and (max-width: 1179px) {
-  .quienes-somos__seccion1, .quienes-somos__seccion2, .quienes-somos__seccion3 {
+  .seccion1, .seccion2, .seccion3 {
     display: block;
     text-align: center; }
-    .quienes-somos__seccion1 p, .quienes-somos__seccion2 p, .quienes-somos__seccion3 p {
+    .seccion1 p, .seccion2 p, .seccion3 p {
       text-align: left; }
-    .quienes-somos__seccion1 img, .quienes-somos__seccion2 img, .quienes-somos__seccion3 img {
+    .seccion1 img, .seccion2 img, .seccion3 img {
       margin-top: 25px; } }
 
 /*------PAGINA ACTIVIDADES-----------*/
 @media only screen and (max-width: 1150px) {
-  .actividades__card__img {
+  .tarjeta-1__img {
     width: 80%; } }
 
 @media only screen and (max-width: 700px) {
-  .actividades__card, .actividades__card-2, .actividades__card--subpages, .actividades__card-2 {
+  .tarjeta-1, .tarjeta-2, .tarjeta-1--subpages, .tarjeta-2 {
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center; }
-  .actividades__card__subtitulo, .actividades__card__img, .actividades__card__p2 {
+  .tarjeta-1__subtitulo, .tarjeta-1__img, .tarjeta-1__p2 {
     align-self: center; } }

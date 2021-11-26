@@ -2,7 +2,7 @@
     margin: 10px 10% 50px 10%;
 }
 
-.actividades__card {
+.tarjeta-1 {
     margin: 100px 0;
     padding: 0 10%;
     display: grid;
@@ -32,8 +32,8 @@
     }
 }
 
-.actividades__card-2 {
-    @extend .actividades__card;
+.tarjeta-2 {
+    @extend .tarjeta-1;
     grid-template-areas: 
     "foto titulo"
     "foto parrafo1"

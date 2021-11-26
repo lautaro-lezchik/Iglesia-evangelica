@@ -235,7 +235,7 @@
 /*---------------QUIENES SOMOS--------------------*/
 
 @media only screen and (max-width: 1179px){
-    .quienes-somos__seccion1, .quienes-somos__seccion2, .quienes-somos__seccion3 {
+    .seccion1, .seccion2, .seccion3 {
         display: block;
         text-align: center;
         p {
@@ -250,20 +250,20 @@
 /*------PAGINA ACTIVIDADES-----------*/
 
 @media only screen and (max-width: 1150px){
-    .actividades__card__img {
+    .tarjeta-1__img {
         width: 80%;
     }
 }
     
 @media only screen and (max-width: 700px) {
-        .actividades__card, .actividades__card-2 {
+        .tarjeta-1, .tarjeta-2 {
             display: flex;
             flex-direction: column;
             text-align: center;
             justify-content: center;
         }
     
-        .actividades__card__subtitulo, .actividades__card__img, .actividades__card__p2 {
+        .tarjeta-1__subtitulo, .tarjeta-1__img, .tarjeta-1__p2 {
             align-self: center;
         }
     }
