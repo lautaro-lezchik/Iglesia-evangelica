@@ -10,21 +10,21 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        &__video {
-            justify-self: center;
+    }
+    .caja__video {
+        justify-self: center;
+    }
+    &__descripcion {
+        text-align: center;
+        margin: 0 auto;
+        &__nombre {
+            color: $acc-color;
+            font-size: 1.2rem;
         }
-        &__descripcion {
-            text-align: center;
-            margin: 0 auto;
-            &__nombre {
-                color: $acc-color;
-                font-size: 1.2rem;
-            }
-            &__fecha {
-                color: $var-color2;
-                font-size: 1rem;
-                margin-top: 5px;
-            }
+        &__fecha {
+            color: $var-color2;
+            font-size: 1rem;
+            margin-top: 5px;
         }
     }
 }

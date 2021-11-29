@@ -399,18 +399,18 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center; }
-    .grilla-videos__caja__video {
-      justify-self: center; }
-    .grilla-videos__caja__descripcion {
-      text-align: center;
-      margin: 0 auto; }
-      .grilla-videos__caja__descripcion__nombre {
-        color: #ee8021;
-        font-size: 1.2rem; }
-      .grilla-videos__caja__descripcion__fecha {
-        color: #4eb349;
-        font-size: 1rem;
-        margin-top: 5px; }
+  .grilla-videos .caja__video {
+    justify-self: center; }
+  .grilla-videos__descripcion {
+    text-align: center;
+    margin: 0 auto; }
+    .grilla-videos__descripcion__nombre {
+      color: #ee8021;
+      font-size: 1.2rem; }
+    .grilla-videos__descripcion__fecha {
+      color: #4eb349;
+      font-size: 1rem;
+      margin-top: 5px; }
 
 .seccion1 {
   padding: 0 10%;
