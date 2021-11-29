@@ -1,0 +1,2 @@
+Proyecto de sitio web creado como consigna en el curso "Desarrollo Web" en Coderhouse.
+El proyecto está basado en la Iglesia de la que soy parte. Esto servirá como staging para luego del curso comprar un dominio y llevarla a la web. 
