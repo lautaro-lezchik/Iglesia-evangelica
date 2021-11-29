@@ -399,18 +399,22 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .grilla-videos .caja__video {
-    justify-self: center; }
-  .grilla-videos__descripcion {
-    text-align: center;
-    margin: 0 auto; }
-    .grilla-videos__descripcion__nombre {
-      color: #ee8021;
-      font-size: 1.2rem; }
-    .grilla-videos__descripcion__fecha {
-      color: #4eb349;
-      font-size: 1rem;
-      margin-top: 5px; }
+
+.caja__video {
+  justify-self: center; }
+
+.descripcion__caja {
+  text-align: center;
+  margin: 0 auto; }
+
+.descripcion__nombre {
+  color: #ee8021;
+  font-size: 1.2rem; }
+
+.descripcion__fecha {
+  color: #4eb349;
+  font-size: 1rem;
+  margin-top: 5px; }
 
 .seccion1 {
   padding: 0 10%;
