@@ -217,6 +217,10 @@ ul li:hover ul {
   height: auto !important;
   width: auto !important; }
 
+.sumate-button-div {
+  text-align: center;
+  margin: 150px 0; }
+
 .hero-text-hidden {
   display: none; }
 
@@ -395,23 +399,23 @@ p {
   row-gap: 70px;
   margin-bottom: 150px;
   justify-content: center; }
-  .grilla-videos__caja {
+  .grilla-videos-caja {
     display: flex;
     flex-direction: column;
     align-items: center; }
 
-.caja__video {
+.caja-video {
   justify-self: center; }
 
-.descripcion__caja {
+.descripcion-caja {
   text-align: center;
   margin: 0 auto; }
 
-.descripcion__nombre {
+.descripcion-nombre {
   color: #ee8021;
   font-size: 1.2rem; }
 
-.descripcion__fecha {
+.descripcion-fecha {
   color: #4eb349;
   font-size: 1rem;
   margin-top: 5px; }
@@ -423,11 +427,11 @@ p {
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "parrafo1 foto" "parrafo2 foto";
   row-gap: 5%; }
-  .seccion1__parrafo1 {
+  .seccion1-parrafo1 {
     grid-area: parrafo1; }
-  .seccion1__parrafo2 {
+  .seccion1-parrafo2 {
     grid-area: parrafo2; }
-  .seccion1__img {
+  .seccion1-img {
     width: 80%;
     grid-area: foto;
     margin: auto; }
@@ -440,13 +444,13 @@ p {
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: "foto parrafo1" "foto parrafo2" "foto parrafo3";
   row-gap: 5%; }
-  .seccion2__parrafo1 {
+  .seccion2-parrafo1 {
     grid-area: parrafo1; }
-  .seccion2__parrafo2 {
+  .seccion2-parrafo2 {
     grid-area: parrafo2; }
-  .seccion2__parrafo3 {
+  .seccion2-parrafo3 {
     grid-area: parrafo3; }
-  .seccion2__img {
+  .seccion2-img {
     width: 90%;
     grid-area: foto;
     margin: auto; }
@@ -459,20 +463,16 @@ p {
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: "parrafo1 foto" "parrafo2 foto" "parrafo3 foto";
   row-gap: 5%; }
-  .seccion3__parrafo1 {
+  .seccion3-parrafo1 {
     grid-area: parrafo1; }
-  .seccion3__parrafo2 {
+  .seccion3-parrafo2 {
     grid-area: parrafo2; }
-  .seccion3__parrafo3 {
+  .seccion3-parrafo3 {
     grid-area: parrafo3; }
-  .seccion3__img {
+  .seccion3-img {
     width: 90%;
     grid-area: foto;
     margin: auto; }
-
-.sumate-button__div {
-  text-align: center;
-  margin: 150px 0; }
 
 .contact-info {
   margin: 50px 10%;
