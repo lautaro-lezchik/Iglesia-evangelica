@@ -1,14 +1,14 @@
 
-.tarjeta-1--subpages {
+.tarjeta-1-subpages {
     @extend .tarjeta-1;
     margin-top: 10px;
 }
 
 .galeria {
-    &__titulo {
+    &-titulo {
         color: $acc-color;
     }
-    &__div {
+    &-div {
         padding: 0 10%;
         margin: 70px 0;
         @include grid(400px, 1fr);
@@ -16,7 +16,7 @@
         row-gap: 50px;
         column-gap: 50px;
     }
-    &__img {
+    &-img {
         width: 90%;
         justify-self: center;
     }

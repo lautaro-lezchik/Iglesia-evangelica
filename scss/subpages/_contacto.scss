@@ -4,22 +4,22 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    &__group{
+    &-group{
         display: flex;
         flex-wrap: nowrap;
         margin: 25px;
         align-items: center;
     }
-    &__text {
+    &-text {
         align-self:center;
         margin-left: 15px;
         margin: 0 15px;
     }
-    &__link {
+    &-link {
         align-self:center;
         margin-left: 15px;
     }
-    &--icons {
+    &-icons {
         color:$var-color1;
         font-size: 60px;
         text-align: center;

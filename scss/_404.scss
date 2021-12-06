@@ -11,23 +11,23 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    &__text {
+    &-text {
         text-align: center;
         margin-top: 150px;
         padding: 0 10%;
-        &--h1 {
+        &-h1 {
             margin-bottom: 50px;
         }
     }
-    &__button {
+    &-button {
         text-align: center;
         margin-top: 50px;
         margin-bottom: 50px;
     }
-    &__logo {
+    &-logo {
         margin: auto;
         text-align: center;
-        &--img {
+        &-img {
             width: 60%;
         }
     }

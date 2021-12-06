@@ -6,20 +6,20 @@
     @include grid(300px, 1fr);
     row-gap: 25px;
     margin: 0 auto;
-    &__logo {
+    &-logo {
         width: 60%;
         margin-left: 10%;
         justify-self: center;
     }
-    &__list {
+    &-list {
         text-align: center;
         line-height: 1.5em;
         list-style: none;
     }
-    &__item {
+    &-item {
         padding: 15px 0;
     }
-    &__link {
+    &-link {
         text-decoration: none;
         color: $var-color1;
         font-size: 1.3em;
@@ -29,7 +29,7 @@
     }
 }
 
-.contact-button--footer {
+.contact-button-footer {
     margin: 20px !important;
     text-align: center;
     font-size: 1.3em;
@@ -37,16 +37,16 @@
 
 .social-media{
     text-align: center;
-    &__text {
+    &-text {
         margin-bottom: 10px;
     }
-    &__links {
+    &-links {
         margin: 15px;
     }
 }
 
 @each $icon, $color in $social-media {
-    .icon--#{$icon} {
+    .icon-#{$icon} {
         color: $color;
         font-size: 60px;
         text-align: center;

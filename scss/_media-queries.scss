@@ -215,7 +215,7 @@
 }
 
 @media only screen and (max-width: 749px){
-    .div__logo{
+    .div-logo{
         text-align: center;
     }
 }
@@ -250,7 +250,7 @@
 /*------PAGINA ACTIVIDADES-----------*/
 
 @media only screen and (max-width: 1150px){
-    .tarjeta-1__img {
+    .tarjeta-1-img {
         width: 80%;
     }
 }
@@ -263,7 +263,7 @@
             justify-content: center;
         }
     
-        .tarjeta-1__subtitulo, .tarjeta-1__img, .tarjeta-1__p2 {
+        .tarjeta-1-subtitulo, .tarjeta-1-img, .tarjeta-1-p2 {
             align-self: center;
         }
     }

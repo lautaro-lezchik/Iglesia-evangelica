@@ -1,4 +1,4 @@
-.actividades__first-p {
+.actividades-first-p {
     margin: 10px 10% 50px 10%;
 }
 
@@ -13,21 +13,21 @@
     "parrafo1 foto"
     "parrafo2 foto";
     row-gap: 20px;
-    &__subtitulo {
+    &-subtitulo {
         grid-area: titulo;
         align-self: end;
         color: $acc-color;
     }
-    &__p1 {
+    &-p1 {
         grid-area: parrafo1;
     }
-    &__p2 {
+    &-p2 {
         grid-area: parrafo2;
         align-self: start;
         justify-self: center;
         padding-top: 25px;
     }
-    &__img {
+    &-img {
         grid-area: foto;
     }
 }
