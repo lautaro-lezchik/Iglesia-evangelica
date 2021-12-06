@@ -3,25 +3,25 @@
     display: flex;
     background-color:$header-footer-back-color;
     z-index: 0;
-    &__logo {
+    &-logo {
         width: 15%;
         margin-left: 5%;
         position: absolute;
         z-index: 2;
     }
-    &__menu {
+    &-menu {
         background-color:$header-footer-back-color;
         width: 100%;
         padding: 50px 0;
         margin-left: 40%;
     }
 }
-.menu__list {
+.menu-list {
     display: flex;
     justify-content: space-around;
     list-style: none;
 }
-.menu__item {
+.menu-item {
     color:$acc-color;
     text-decoration: none;
     font-size: 1.2rem;
@@ -44,14 +44,14 @@
     text-decoration: none;
     margin-left: -35px;
     z-index: 200;
-    &__item{
+    &-item{
         display: block;
         border-top: 1px solid $white-color;
         padding: 7px 0;
-        &--border{
+        &-border{
             border:none;
         }
-        &--link{
+        &-link{
             text-decoration: none;
             color: $white-color;
             &:hover {
@@ -63,7 +63,7 @@
     }
 }
 
-.menu--active {
+.menu-active {
     color:$var-color1;
 }
 
