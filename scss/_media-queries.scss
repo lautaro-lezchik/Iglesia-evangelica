@@ -37,6 +37,11 @@
     padding-bottom: 15px;
 }
 
+.header {
+    position: sticky;
+    top:0;
+}
+
 }
 
 /*------HERO SECTION-----------*/
@@ -91,7 +96,6 @@
         margin-top: 20px;
     }
 }
-
 
 /*------NUESTROS VALORES SECTION-----------*/
 
@@ -238,6 +242,16 @@
     }
     }
 
+    @media only screen and (max-width: 600px) {
+        .subpage-title {
+            margin-top: 70px;
+            margin-bottom: 25px;
+            padding: 0 10%;
+            font-size: 2rem;
+        }
+        }
+    
+
 /*---------------QUIENES SOMOS--------------------*/
 
 @media only screen and (max-width: 1179px){
@@ -275,6 +289,14 @@
     }
     
 
+
+    /*------PAGINA contacto-----------*/
+
+    @media only screen and (max-width: 600px) {
+        .contacto-h2 {
+            margin-top: 30px;
+        }
+    }
 
 
 

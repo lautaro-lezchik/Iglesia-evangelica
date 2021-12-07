@@ -284,7 +284,8 @@ p {
     padding: 20px 0 10px 0; }
   .mision-vision-lista {
     font-style: italic;
-    padding-top: 15px; }
+    padding-top: 15px;
+    padding-left: 0 !important; }
     .mision-vision-lista li {
       margin: 15px 0;
       list-style: none;
@@ -592,7 +593,10 @@ p {
   .header-logo {
     width: 20%;
     margin-top: 5px;
-    padding-bottom: 15px; } }
+    padding-bottom: 15px; }
+  .header {
+    position: sticky;
+    top: 0; } }
 
 /*------HERO SECTION-----------*/
 @media only screen and (max-width: 1000px) {
@@ -719,6 +723,13 @@ p {
   .subpage-title {
     margin-top: 50px; } }
 
+@media only screen and (max-width: 600px) {
+  .subpage-title {
+    margin-top: 70px;
+    margin-bottom: 25px;
+    padding: 0 10%;
+    font-size: 2rem; } }
+
 /*---------------QUIENES SOMOS--------------------*/
 @media only screen and (max-width: 1179px) {
   .seccion1, .seccion2, .seccion3 {
@@ -742,3 +753,8 @@ p {
     justify-content: center; }
   .tarjeta-1-subtitulo, .tarjeta-1-img, .tarjeta-1-p2 {
     align-self: center; } }
+
+/*------PAGINA contacto-----------*/
+@media only screen and (max-width: 600px) {
+  .contacto-h2 {
+    margin-top: 30px; } }
