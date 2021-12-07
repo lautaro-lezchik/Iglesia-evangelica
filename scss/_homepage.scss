@@ -143,18 +143,20 @@
 
 /*--------------VIDEO DESTACADO---------------*/
 
-.video-destacado-contenedor {
-    width: 80%;
-    margin: 150px auto;
-    display: flex;
-    iframe {
-        margin: auto;
-        width: 560px;
-        height: 315px;
+.video-destacado {
+    &-contenedor {
+        width: 80%;
+        margin: 150px auto;
+        display: flex;
+        iframe {
+            margin: auto;
+            width: 560px;
+            height: 315px;
+        }
     }
-}
-.video-destacado-button{
-    margin: auto;
+    &-button {
+        margin: auto;
+    }
 }
 
 

@@ -140,7 +140,6 @@ ul li:hover ul {
   margin: 0 auto; }
   .footer-logo {
     width: 60%;
-    margin-left: 10%;
     justify-self: center; }
   .footer-list {
     text-align: center;
@@ -660,7 +659,8 @@ p {
     row-gap: 30px;
     margin-top: 30px; }
   .video-destacado-titulo {
-    padding: 0 10%; } }
+    padding: 0 10%;
+    margin-top: 30px; } }
 
 @media only screen and (max-width: 640px) {
   .video-destacado-contenedor iframe {
@@ -689,8 +689,7 @@ p {
       .contacto-form-grid {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
-        padding: 0 10%;
-        justify-content: center; }
+        padding: 0 10%; }
     .contacto-input {
       box-sizing: border-box;
       width: 50vw;
@@ -707,7 +706,11 @@ p {
 
 @media only screen and (max-width: 749px) {
   .div-logo {
-    text-align: center; } }
+    text-align: center; }
+  .footer-logo {
+    margin-left: 0; }
+  .footer-list {
+    padding-left: 0; } }
 
 /*----------------------------------------------*/
 /*-----------------SUBPAGES-------------------*/
